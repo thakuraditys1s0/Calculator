@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Neon Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="top-bar">
+      <div class="toggle-theme">🌙 Toggle Theme</div>
+      <div class="toggle-scientific">🧪 Scientific Mode</div>
+    </div>
+    <input type="text" class="display" id="display" disabled>
+    <div class="buttons" id="sci-buttons" style="display:none;"></div>
+    <div class="buttons" id="button-grid"></div>
+    <div class="history-actions">
+      <div class="toggle-history">📜 History</div>
+      <div class="clear-history" style="display:none;">🗑 Clear</div>
+    </div>
+    <div class="history-panel" id="history"></div>
+  </div>
+
+  <audio id="clickSound" src="https://www.fesliyanstudios.com/play-mp3/387"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
